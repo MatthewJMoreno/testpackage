@@ -1,17 +1,24 @@
 {
-  "name": "my-test-package",
+  "name": "diehardwalnutspackage",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is my test package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Hello world\""
   },
   "repository": {
     "type": "git",
-    "url": "git://git-remote-url"
+    "url": "git+https://github.com/MatthewJMoreno/testpackage.git"
   },
-  "author": "",
+  "keywords": [
+    "js"
+  ],
+  "author": "Matthew Moreno",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewJMoreno/testpackage/issues"
+  },
+  "homepage": "https://github.com/MatthewJMoreno/testpackage#readme",
   "dependencies": {
     "colors": "^1.4.0"
   }
